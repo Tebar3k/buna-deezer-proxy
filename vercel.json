@@ -4,5 +4,11 @@
     "api/deezer.js": {
       "runtime": "nodejs18.x"
     }
-  }
+  },
+  "routes": [
+    {
+      "src": "/api/deezer",
+      "dest": "api/deezer.js"
+    }
+  ]
 }
